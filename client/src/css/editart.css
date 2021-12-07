@@ -1,0 +1,63 @@
+.edit-product {
+  position: fixed;
+  top: 50vh;
+  right: 0;
+  z-index: 9999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 3px 3px #0000001f;
+          box-shadow: 0px 3px 3px 3px #0000001f;
+  width: 300px;
+}
+
+.edit-product button {
+  border-radius: 30px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #0075ff;
+  background-color: transparent;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  padding: 5px 5px;
+}
+
+.edit-product button:hover {
+  background-color: #0368db;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: white;
+}
+
+.edit-product button:active {
+  background-color: #014899;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: white;
+}
+
+.edit-product input {
+  margin-left: 10px;
+}
+
+.offfilter {
+  -webkit-filter: grayscale(0) !important;
+          filter: grayscale(0) !important;
+}
+
+.product-block {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*# sourceMappingURL=editart.css.map */
